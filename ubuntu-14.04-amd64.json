@@ -190,6 +190,15 @@
         "scripts/common/minimize.sh"
       ],
       "type": "shell"
+    },
+    {
+      "type": "puppet-masterless",
+      "manifest_file": "puphpet/puppet/site.pp",
+      "hiera_config_path": "puphpet/puppet/hiera.yaml",
+      "manifest_dir": "puphpet/puppet",
+      "module_paths": [
+        "puphpet/puppet/modules"
+      ]
     }
   ],
   "variables": {
@@ -204,4 +213,3 @@
     "version": "2.0.TIMESTAMP"
   }
 }
-
