@@ -19,6 +19,9 @@ Inside the directory, a JSON file describes each box that can be built. I use **
 `packer build -only=parallels-iso ubuntu-14.04-amd64.json`
 
 # Description of the problemm
+
+The problem appears when puppet is launched via packer. There are issues with puppets modules and thus `packer-build` fails. However the same puppet files do work with vagrant.
+
 The installation works fine. Parallels tools are installed as supposed. However there are problems with *puppet* reading the modules created by *puphpet*
 
 ## Example of the error code
