@@ -15,8 +15,8 @@ via [test-kitchen](http://kitchen.ci/).
 First, install [Packer](http://packer.io) and then clone this project.
 
 Inside the directory, a JSON file describes each box that can be built. I use **ubuntu-14.04-amd64.json**. As I use paralells the following command will only build a parallels box: 
-```packer build -only=parallels-iso ubuntu-14.04-amd64.json
-```
+
+`packer build -only=parallels-iso ubuntu-14.04-amd64.json`
 
 # Description of the problemm
 The installation works fine. Parallels tools are installed as supposed. However there are problems with *puppet* reading the modules created by *puphpet*
