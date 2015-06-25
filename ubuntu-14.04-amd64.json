@@ -185,6 +185,7 @@
         "scripts/ubuntu/networking.sh",
         "scripts/ubuntu/sudoers.sh",
         "scripts/common/vagrant.sh",
+        "scripts/ubuntu/puppetize.sh",
         "scripts/common/vmtools.sh",
         "scripts/ubuntu/cleanup.sh",
         "scripts/common/minimize.sh"
