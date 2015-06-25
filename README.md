@@ -10,7 +10,7 @@ Bento is a project that encapsulates [Packer](http://packer.io) templates for bu
 testing Hosted Chef, Chef Server and our open source [cookbooks](https://supermarket.chef.io/users/chef)
 via [test-kitchen](http://kitchen.ci/).
 
-# follow alog to replicate my problem:
+# Follow along to replicate my problem:
 
 First, install [Packer](http://packer.io) and then clone this project.
 
